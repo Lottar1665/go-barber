@@ -34,24 +34,24 @@ function index() {
 
       <div className='flex items-center justify-center'>
 
-      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-80 md:w-96'>
-        <MdOutlineEmail className='w-[20px] h-[20px] bg-input text-icon' />
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
+        <MdOutlineEmail className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]' />
           <input type="email" 
           placeholder='Digite seu email' 
-          className='w-64 h-14 rounded-xl bg-input ml-[16px]'/>
+          className='w-80 h-14 rounded-xl bg-input '/>
       </div>
       </div>
       
       <div className='flex items-center justify-center'>
-      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-80 md:w-96'>
-      <RiLockPasswordFill className='bg-input text-icon'/>
-            <input type="password" placeholder='Digite sua senha' className='w-64 h-14 rounded-xl bg-input ml-[16px]'/>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+            <input type="password" placeholder='Digite sua senha' className='w-80 h-14 rounded-xl bg-input '/>
       </div>
       </div>
       
 
-      <div className='flex justify-center items-center'>
-        <button className='mt-5 border-black font-serif bg-bg-enter text-enter w-80 h-14 rounded-xl md:w-96'>Entrar</button>
+      <div className=''>
+        <button className='flex items-center justify-center mt-5 border-black font-serif bg-bg-enter text-enter w-[344px] h-[56px] rounded-xl '>Entrar</button>
       </div>
         
         <div className='flex justify-center items-center'>
@@ -59,12 +59,15 @@ function index() {
         </div>
 
         <div className='flex justify-center items-center mt-5'>
-        <CiLogin className='mr-1 text-bg-enter'/>
+
+          <CiLogin className='mr-1 text-bg-enter'/>
+
           <button className='text-bg-enter font-serif'>Criar conta</button>
         </div>
       </div>
+
       <div className='flex w-screen h-screen'>
-      <Image src={ImageFundo} alt={''} className='w-[780px] h-[944px]'/>
+      <Image src={ImageFundo} alt={''} className=' tablet:w-[780px] tablet:h-[944px]'/>
       </div>
     
     </main>
