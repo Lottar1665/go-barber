@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from '../styles/Home.module.scss'
 import Image from "next/image"
+import Link from 'next/link'
 
 import ImageLogo from "../pages/public/img/Logo.svg"
 import ImageFundo from "../pages/public/fundo.png"
@@ -62,14 +62,13 @@ function index() {
 
           <CiLogin className='mr-1 text-bg-enter'/>
 
-          <button className='text-bg-enter font-serif'>Criar conta</button>
+          <Link href='/cadastro' className='text-bg-enter font-serif'>Criar conta</Link>
         </div>
       </div>
-
       <div className='flex w-screen h-screen'>
       <Image src={ImageFundo} alt={''} className=' tablet:w-[780px] tablet:h-[944px]'/>
       </div>
-    
+        
     </main>
     </>
     

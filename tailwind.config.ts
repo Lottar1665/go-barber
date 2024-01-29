@@ -12,7 +12,8 @@ const config: Config = {
         'bg-enter': '#FF9000',
         'enter': '#312E38',
         'input': '#232129',
-        'icon': '#666360'
+        'icon': '#666360',
+        'hoverText':'#999591'
       },
       screen:{
         'tablet': '640px',
