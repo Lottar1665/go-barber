@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         'bg-enter': '#FF9000',
         'enter': '#312E38',
-        'input': '#232129'
+        'input': '#232129',
+        'icon': '#666360'
       },
       text:{
         'roboto': 'Roboto Slab'
