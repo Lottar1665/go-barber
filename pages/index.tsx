@@ -5,7 +5,7 @@ function index() {
   return (
     <>
     <main  className='w-auto h-auto'>
-      <div className='mt-96 items-center text-5xl 
+      <div className='items-center text-5xl 
       justify-center flex font-serif text-white'>
         <text>Login</text>
       </div>
