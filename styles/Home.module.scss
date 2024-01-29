@@ -1,0 +1,30 @@
+.login {
+    color: var(--White, #F4EDE8);
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.font {
+    color: var(--White, #F4EDE8);
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 200;
+  }
+.input {
+    border-radius: 0.625rem;
+    background: var(--Inputs, #232129);
+    width: 21.25rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+}
+.cadastro {
+    margin-top: 20;
+}

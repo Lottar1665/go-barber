@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'bg-enter': '#FF9000',
+        'enter': '#312E38',
+        'input': '#232129'
+      },
+      text:{
+        'roboto': 'Roboto Slab'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
