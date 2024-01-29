@@ -10,7 +10,7 @@ function index() {
   return (
     <>
     
-    <main  className='flex'>
+    <main  class="bg-[url('../pages/public/fundo.png')]" className='flex'>
     <div className='xl:ml-96 xl:mr-96'>
     <div className='flex items-center justify-center'>
     <Image src={ImageLogo} alt={''} className='w-48 h-48 md:w-64 md:h-64' />
