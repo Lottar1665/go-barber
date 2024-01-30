@@ -13,7 +13,7 @@ function cadastro() {
     
     <main className='flex'>
 
-    <Image src={ImageFundo2} alt='' className='w-[1440px] h-[944px]'/>
+    <Image src={ImageFundo2} alt='' className='w-[780px] h-[944px]'/>
 
     <div className=' w-[344px] h-[616px] mt-[121px] ml-80 mr-20 '>
 
@@ -24,7 +24,7 @@ function cadastro() {
       <div className='flex content-between mb-[50px]'>
 
       <div
-        className='font-serif text-hoverText  mr-10 ml-[24px] focus-within:text-white focus-within:text-[20px]'>
+        className='font-serif text-hoverText  hover:text-white mr-10 ml-[24px]'>
             <button>Sou cliente</button>
       </div>
 

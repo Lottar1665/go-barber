@@ -2,7 +2,7 @@ import React from 'react'
 
 function perfil() {
   return (
-    <div>perfil</div>
+    <div>ARROZ</div>
   )
 }
 
