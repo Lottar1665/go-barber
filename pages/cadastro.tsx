@@ -24,7 +24,7 @@ function cadastro() {
       <div className='flex content-between mb-[50px]'>
 
       <div
-        className='font-serif text-hoverText  hover:text-white mr-10 ml-[24px]'>
+        className='font-serif text-hoverText hover:text-white mr-10 ml-[24px]'>
             <button>Sou cliente</button>
       </div>
 
@@ -38,8 +38,8 @@ function cadastro() {
 
       <div className='flex items-center justify-center'>
 
-      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
-      <FiUser className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px] focus-within:text-white focus-within:text-[20px]' />
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96  focus-within:text-white focus-within:text-[20px]'>
+      <FiUser className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]' />
           <input type="text" 
           placeholder='Nome' 
           className='w-80 h-14 rounded-xl bg-input '/>
