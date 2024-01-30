@@ -13,7 +13,7 @@ function cadastro() {
     
     <main className='flex'>
 
-    <Image src={ImageFundo2} alt='' className='w-[1000px] h-[944px]'/>
+    <Image src={ImageFundo2} alt='' className='w-[1500px] h-[944px]'/>
 
     <div className=' w-[344px] h-[616px] mt-[121px] ml-96 mr-20 '>
 
