@@ -58,7 +58,7 @@ function index() {
           <button className='text-white mt-5 font-serif'>Esqueci minha senha</button>
         </div>
 
-        <div className='flex justify-center items-center mt-5'>
+        <div className='flex justify-center items-center mt-10'>
 
           <CiLogin className='mr-1 text-bg-enter'/>
 
