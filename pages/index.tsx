@@ -54,7 +54,7 @@ function index() {
         <button className='flex items-center justify-center mt-5 border-black font-serif bg-bg-enter text-enter w-[344px] h-[56px] rounded-xl '>Entrar</button>
       </div>
         
-        <div className='flex justify-center items-center mt-5 p-2'>
+        <div className='flex justify-center items-center mt-5 p-2 text-white'>
           <button className='text-whitefont-serif'>Esqueci minha senha</button>
         </div>
 
