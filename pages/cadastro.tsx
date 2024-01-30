@@ -24,7 +24,7 @@ function cadastro() {
       <div className='flex content-between mb-[50px]'>
 
       <div
-        className='font-serif text-hoverText  hover:text-white mr-10 ml-[24px]'>
+        className='font-serif text-hoverText decoration-none mr-10 ml-[24px]'>
             <button>Sou cliente</button>
       </div>
 
