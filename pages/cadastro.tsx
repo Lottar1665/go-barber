@@ -39,7 +39,7 @@ function cadastro() {
       <div className='flex items-center justify-center'>
 
       <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
-      <FiUser className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]' />
+      <FiUser className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px] focus-within:text-white focus-within:text-[20px]' />
           <input type="text" 
           placeholder='Nome' 
           className='w-80 h-14 rounded-xl bg-input '/>
