@@ -42,11 +42,11 @@ function index() {
       </div>
       </div>
       
-      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96  focus-within:outline-none focus-within:ring-bg-enter focus-within:ring-1'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 ring-bg-enter focus-within:outline-none focus-within:ring-bg-enter focus-within:ring-1'>
         
            <RiLockPasswordFill className='absolute  w-[20] h-[20] bg-input text-icon ml-[16px] mr-[22rem]'/>
         
-        <input type="password" placeholder='Digite sua senha' className='w-96 h-14 rounded-xl bg-input ring-none ml-[52] focus-within:outline-none focus-within:ring-bg-enter focus-within:ring-1'/>
+        <input type="password" placeholder='Digite sua senha' className='w-96 h-14 rounded-xl bg-input ring-none ml-[52] ring-bg-enter focus-within:outline-none focus-within:ring-bg-enter focus-within:ring-1'/>
             
       </div>
       
