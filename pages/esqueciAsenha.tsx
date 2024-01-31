@@ -13,7 +13,7 @@ function esqueciasenha() {
     <>
     <div className='w-screen h-[144px] bg-blackMedium absolute'></div>
     
-    <main className='flex items-center justify-center border'>
+    <main className='flex items-center justify-center'>
       <div>
           <div className='ml-[100px]'>
             <Image src={ImagePerfil} alt={''} className='border border-black rounded-full flex items-center justify-center w-[185px] h-[185px] mt-[45px] absolute sm:hidden'/>
