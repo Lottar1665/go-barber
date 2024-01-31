@@ -69,7 +69,7 @@ function index() {
         </div>
       </div>
       <div className='flex w-screen h-screen'>
-      <Image src={ImageFundo} alt={''} className='hidden tablet:w-[780px] tablet:h-[944px] tablet:block'/>
+      <Image src={ImageFundo} alt={''} className='hidden tablet:visible tablet:w-[780px] tablet:h-[944px] tablet:block'/>
       </div>
         
     </main>
