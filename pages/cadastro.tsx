@@ -46,7 +46,7 @@ function cadastro() {
       </div>
       </div>
       
-      <div className='flex items-center justify-center p-[8px]'>
+      <div className='flex items-center justify-center'>
 
       <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
       <MdOutlineEmail className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]' />
