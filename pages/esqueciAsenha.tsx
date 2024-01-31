@@ -47,21 +47,21 @@ function esqueciasenha() {
               <div className='flex items-center justify-center mt-2 rounded-xl mb-[8px] bg-input w-96'>
               <RiLockPasswordLine className='bg-input text-icon w-[20px] h-[20px] mx-[16px]'/>
                 <div className='flex items-center justify-center'>
-                <input type='password' placeholder='Senha atual' className='bg-input p-1 w-80 h-14 text-enter font-serif ' />
+                <input type='password' placeholder='Senha atual' className='bg-input p-1 w-80 h-14 text-enter font-serif text-white' />
                 </div>
               </div>
 
             <div className='flex items-center justify-center mt-2 rounded-xl bg-input mb-[8px] w-96'>
             <RiLockPasswordLine className='bg-input text-icon w-[20px] h-[20px] mx-[16px]'/>
                 <div className='flex items-center justify-center'>
-                  <input type='password' placeholder='Nova senha' className='bg-input w-80 h-14 p-1 text-enter font-serif ' />
+                  <input type='password' placeholder='Nova senha' className='bg-input w-80 h-14 p-1 text-enter font-serif text-white ' />
                   </div>
             </div>
 
             <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
             <RiLockPasswordLine className='bg-input text-icon w-[20px] h-[20px] mx-[16px]'/>
                     <div className='flex items-center justify-center'>
-                    <input type='password' placeholder='Confirmar senha' className='bg-input w-80 h-14 p-1 text-enter font-serif  ' />
+                    <input type='password' placeholder='Confirmar senha' className='bg-input w-80 h-14 p-1 text-enter font-serif  text-white' />
                     </div>
             </div>
 
