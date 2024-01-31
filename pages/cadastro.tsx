@@ -60,6 +60,41 @@ function cadastro() {
       <input type="password" placeholder='Senha' className='w-80 h-14 rounded-xl bg-input '/>
       </div>
       </div>
+
+      <div  className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 '>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+      <input type="password" placeholder='Confirmar senha' className='w-80 h-14 rounded-xl bg-input '/>
+      </div>
+        
+      </div>
+      <div  className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 '>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+      <input type="text" placeholder='Endereço' className='w-80 h-14 rounded-xl bg-input '/>
+      </div>
+        
+      </div>
+      <div  className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 '>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+      <input type="number" placeholder='CEP' className='w-80 h-14 rounded-xl bg-input '/>
+      </div>
+        
+      </div>
+      <div  className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 '>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+      <input type="number" placeholder='Whatsapp' className='w-80 h-14 rounded-xl bg-input '/>
+      </div>
+        
+      </div>
+      <div  className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 '>
+      <RiLockPasswordFill className='w-[20] h-[20] bg-input text-icon ml-[16px] mr-[16px]'/>
+      <input type="text" placeholder='CNPJ' className='w-80 h-14 rounded-xl bg-input '/>
+      </div>
+      </div>
       
 
       <div className=''>
@@ -68,9 +103,6 @@ function cadastro() {
         
 
         <div className='flex justify-center items-center mt-5'>
-
-          
-
           <Link href='/' className='text-white font-serif mt-[80px]'>Voltar para login</Link>
         </div>
       </div>
