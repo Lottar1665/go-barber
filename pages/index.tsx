@@ -68,7 +68,7 @@ function index() {
           <Link href='/cadastro' className='text-bg-enter font-serif'>Criar conta</Link>
         </div>
       </div>
-      <div className='flex w-screen h-screen object-none md:block'>
+      <div className='flex w-screen h-screen object-none xl:block'>
       <Image src={ImageFundo} alt={''} className=' md:w-[780px] md:h-[944px]'/>
       </div>
         
