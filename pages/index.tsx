@@ -51,11 +51,11 @@ function index() {
       
 
       <div className=''>
-        <Link href={'/perfil'}className='flex items-center justify-center mt-5 border-black font-serif bg-bg-enter text-enter w-[344px] h-[56px] rounded-xl '>Entrar</Link>
+        <Link href={'/'} className='flex items-center justify-center mt-5 border-black font-serif bg-bg-enter text-enter w-[344px] h-[56px] rounded-xl '>Entrar</Link>
       </div>
         
         <div className='flex justify-center items-center mt-5'>
-          <button className='text-white mt-5 font-serif'>Esqueci minha senha</button>
+          <Link href={'/esqueciAsenha'} className='text-white mt-5 font-serif'>Esqueci minha senha</Link>
         </div>
 
         <div className='flex justify-center items-center  mt-14'>

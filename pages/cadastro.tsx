@@ -29,7 +29,7 @@ function cadastro() {
       </div>
 
       <div
-        className='font-serif text-hoverText mr-10 ml-[24px] focus-within:text-white focus-within:text-[20px]'>
+        className='font-serif text-hoverText hover:text-white mr-10 ml-[24px] focus-within:text-white focus-within:text-[20px]'>
             <button className='focus:accent-pink-500'>Sou cabelereiro</button>
       </div>
 

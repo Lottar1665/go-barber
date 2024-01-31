@@ -13,7 +13,8 @@ const config: Config = {
         'enter': '#312E38',
         'input': '#232129',
         'icon': '#666360',
-        'hoverText':'#999591'
+        'hoverText':'#999591',
+        'blackMedium': '#28262E'
       },
       screen:{
         'tablet': '640px',
