@@ -15,7 +15,7 @@ function cadastro() {
 
     <Image src={ImageFundo2} alt='' className='w-[780px] h-[944px]'/>
 
-    <div className=' w-[344px] h-[616px] mt-[5px] ml-80 mr-20 '>
+    <div className=' w-[344px] h-[616px] mt-[2px] ml-80 mr-20 '>
 
     <div className='flex items-center justify-center mr-5'>
 
@@ -102,7 +102,7 @@ function cadastro() {
       </div>
         
 
-        <div className='flex justify-center items-center mt-5'>
+        <div className='flex justify-center items-center mt-2'>
           <Link href='/' className='text-white font-serif mt-[80px]'>Voltar para login</Link>
         </div>
       </div>
