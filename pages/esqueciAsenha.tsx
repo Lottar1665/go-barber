@@ -58,7 +58,7 @@ function esqueciasenha() {
                   </div>
             </div>
 
-            <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96'>
+            <div className='flex items-center justify-center mt-2 rounded-xl bg-input w-96 mb-5'>
             <RiLockPasswordLine className='bg-input text-icon w-[20px] h-[20px] mx-[16px]'/>
                     <div className='flex items-center justify-center'>
                     <input type='password' placeholder='Confirmar senha' className='bg-input w-80 h-14 p-1 text-enter font-serif  text-white' />
