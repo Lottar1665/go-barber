@@ -15,7 +15,7 @@ function cadastro() {
 
     <Image src={ImageFundo2} alt='' className='w-[780px] h-[944px]'/>
 
-    <div className=' w-[344px] h-[616px] mt-[50px] ml-80 mr-20 '>
+    <div className=' w-[344px] h-[616px] mt-[5px] ml-80 mr-20 '>
 
     <div className='flex items-center justify-center mr-5'>
 
