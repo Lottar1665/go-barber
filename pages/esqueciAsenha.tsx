@@ -16,7 +16,7 @@ function esqueciasenha() {
     <main className='flex items-center justify-center border'>
       <div>
           <div className='ml-[100px]'>
-            <Image src={ImagePerfil} alt={''} className='border border-black rounded-full flex items-center justify-center w-[185px] h-[185px] mt-[45px] absolute'/>
+            <Image src={ImagePerfil} alt={''} className='border border-black rounded-full flex items-center justify-center w-[185px] h-[185px] mt-[45px] absolute sm:hidden'/>
             </div>
             <div className='flex justify-center items-center border border-black w-[40px] h-[40px]  mt-[190px] ml-[230px] bg-bg-enter rounded-full absolute'>
             <MdOutlinePhotoCamera className='w-[20px] h-[20px] bg-bg-enter rounded-full'/>

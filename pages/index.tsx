@@ -15,7 +15,7 @@ function index() {
     <>
     
     <main className='flex'>
-    <div className=' w-[344px] h-[616px] mt-[121px] ml-[500px] mr-[300px]'>
+    <div className=' w-[344px] h-[616px] md:mt-[121px] md:ml-[500px] md:mr-[300px]'>
     <div className='flex items-center justify-center'>
     <Image src={ImageLogo} alt={''} className='w-[230px] h-[134px] md:w-64 md:h-64' />
     </div>
@@ -66,7 +66,7 @@ function index() {
         </div>
       </div>
       <div className='flex w-screen h-screen'>
-      <Image src={ImageFundo} alt={''} className=' tablet:w-[780px] tablet:h-[944px]'/>
+      <Image src={ImageFundo} alt={''} className='md:w-[780px] md:h-[944px]'/>
       </div>
         
     </main>
